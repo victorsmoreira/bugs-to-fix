@@ -4,7 +4,7 @@ require 'json'
 require_relative './app/bugs_resolver_hoje'
 
 # Carregar arquivo JSON com extração de bugs do banco
-input_bugs = File.read('./support/extração_bugs.json')
+input_bugs = File.read('./resources/extração_bugs.json')
 bugs_array = (JSON.parse(input_bugs))['Bugs']
 
 # Utilização do método de priorização
