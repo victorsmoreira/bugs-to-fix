@@ -1,7 +1,7 @@
 # desafio_festalab
 
 ## Contexto
-Esse método é utilizado para priorizar a resolução de bugs em uma plataforma.
+./app/bugs_resolver_hoje.rb é um método utilizado para priorizar a resolução de bugs em uma plataforma.
 Os bugs são classificados entre normais e críticos. Bugs normais devem ser resolvidos em até 3 dias e bugs críticos devem ser resolvidos no mesmo dia.
 
 ## Como usar
