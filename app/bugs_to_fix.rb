@@ -49,7 +49,6 @@ end
 
 # Main method
 def bugs_to_fix(array_bugs)
-  
   bugs_fix_today = []
   expired_bugs = []
 
@@ -66,7 +65,7 @@ def bugs_to_fix(array_bugs)
 
   # Sorted and selected bugs
   {
-    :expired => sort_bugs(expired_bugs),
-    :fix_today => sort_bugs(bugs_fix_today)
+    expired: sort_bugs(expired_bugs),
+    fix_today: sort_bugs(bugs_fix_today)
   }
 end
