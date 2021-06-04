@@ -1,4 +1,4 @@
-# desafio_festalab
+# bugs-to-fix
 
 ## Contexto
 ./app/bugs_to_fix.rb é um método utilizado para priorizar a resolução de bugs em uma plataforma.
@@ -51,7 +51,7 @@ Exemplo
 Exemplo
 ```ruby
 {
-  :expired => ['Nenhum bug encontrado =D'],
+  :expired => [],   # Quando não são encontrados bugs, a array retorna vazia
   :fix_today => [00, 01, 02, ...]
 }
 ```
